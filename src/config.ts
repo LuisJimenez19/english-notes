@@ -1,0 +1,1 @@
+export const URL_API="https://docs.google.com/spreadsheets/d/e/2PACX-1vRfbWeDlXhTRZqRQfGwW-BCkLm8Fgj30yt62dMXYQXegcOobwi0TckkdK3j787jcetLnm4AwKmeIH2K/pub?output=tsv"
