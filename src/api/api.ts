@@ -15,7 +15,7 @@ export async function fetchData(): Promise<ResApuntes> {
   /* Response to render  */
   // ?INFO: get categories to filter
   const categories = dataRows.reduce((categories, row) => {
-    const category = row[row.length - 1].split(",").map((c) => c.trim()).filter((c)=> c !== "audio"); // es la última columna
+    const category = row[row.length - 1].split(";").map((c) => c.trim()).filter((c)=> c !== "audio"); // es la última columna
     return Array.from(new Set(categories.concat(category)));
   }, []);
 

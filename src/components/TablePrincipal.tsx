@@ -16,8 +16,6 @@ interface Props {
   rows: string[][];
 }
 
-
-
 function TablePrincipal({ headers, rows }: Props) {
   /* Identificar cuál es el audio que se esta reproduciedo. */
   const [playing, setPlaying] = useState<StatePlaying>({
@@ -30,15 +28,12 @@ function TablePrincipal({ headers, rows }: Props) {
       <TableCaption>A list of phrases to practice.</TableCaption>
       <TableHeader>
         <TableRow>
-          <TableHead><Speaker width={16} /></TableHead>
-          {headers.map((head, index) => {
+          <TableHead>
+            <Speaker width={16} />
+          </TableHead>
+          {headers.map((head) => {
             return (
-              <TableHead
-                key={head}
-                className={`${
-                  index === headers.length - 1 ? "text-right" : "text-left"
-                }`}
-              >
+              <TableHead key={head} className={`${"left"}`}>
                 {head}
               </TableHead>
             );
