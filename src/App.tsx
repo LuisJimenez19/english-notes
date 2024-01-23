@@ -21,7 +21,7 @@ function App() {
         </main>
         <footer className="bg-transparent py-4 ">
           <p className="text-sm text-center text-gray-500">
-            By{" "}
+            Made with ♥ By{" "}
             <a
               className="
               font-semibold  underline
@@ -36,7 +36,20 @@ function App() {
             >
               Luis Jiménez
             </a>{" "}
-            ♥
+            {/* ☺ and the{" "}
+            <a
+              rel="noreferrer noopener"
+              target="_blank"
+              href="https://www.linkedin.com/in/melissa-florez-a172022aa/"
+              className="font-semibold  underline
+              text-transparent bg-clip-text inline-block
+              bg-gradient-to-b from-gray-900 to-gray-600 
+
+              dark:bg-[conic-gradient(at_top,_var(--tw-gradient-stops))] dark:from-gray-900 dark:via-gray-100 dark:to-gray-900"
+            >
+              Bitch Melissa
+            </a>
+            🐩 */}
           </p>
         </footer>
 
