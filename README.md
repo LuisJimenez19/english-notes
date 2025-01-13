@@ -1,30 +1,24 @@
-# React + TypeScript + Vite
+# English Notes
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Web para prácticar frases tipicas en english.
+Utiliza cómo base de datos un spreadsheets, la primera fila que campo es:
+![image](https://github.com/user-attachments/assets/edce266e-9d52-4cf2-84d4-d50dbddb1978)
 
-Currently, two official plugins are available:
+En la columna **Pronuntation** se pone primero como se dice, y seperado por **;** el link del audio.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![image](https://github.com/user-attachments/assets/687bdfc8-61cf-4d22-a7b4-80b33346d5c3)
 
-## Expanding the ESLint configuration
+En la columna **Categories** se separan con ";" las categorias.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-- Configure the top-level `parserOptions` property like this:
+![image](https://github.com/user-attachments/assets/aa40bde5-8878-4314-8a9a-7bac2b8e2907)
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+
+
+
+
+
+https://docs.google.com/spreadsheets/d/1J2gfHHHHq9njn6XcjaXSu3FGzcR9Y2KqF6xbFijOFek/edit#gid=0
+
