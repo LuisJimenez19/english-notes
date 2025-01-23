@@ -30,9 +30,9 @@ function App() {
 
               dark:bg-[conic-gradient(at_top,_var(--tw-gradient-stops))] dark:from-gray-900 dark:via-gray-100 dark:to-gray-900
               "
-              rel="noreferrer noopener"
+              
               target="_blank"
-              href="https://angeljimenez.netlify.app/"
+              href="https://www.luis-dev.pro/"
             >
               Luis Jiménez
             </a>{" "}
